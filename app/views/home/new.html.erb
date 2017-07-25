@@ -1,0 +1,26 @@
+<%= form_tag (home_top_path) do %>
+
+<%= label_tag(:room_type) %>
+<%= text_field_tag(:room_type) %>
+<br>
+<%= label_tag(:num_rooms) %>
+<%= text_field_tag(:num_rooms) %>
+<br>
+<%= label_tag(:square) %>
+<%= text_field_tag(:square) %>
+<br>
+<%= label_tag(:floor) %>
+<%= text_field_tag(:floor) %>
+<br>
+<%= label_tag(:building_type) %>
+<%= text_field_tag(:building_type) %>
+<br>
+<%= label_tag(:structure_type) %>
+<%= text_field_tag(:structure_type) %>
+<br>
+<%= label_tag(:floor_height) %>
+<%= text_field_tag(:floor_height) %>
+<br>
+<input type ="submit" value="送信">
+
+<% end %>
